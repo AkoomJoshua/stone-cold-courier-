@@ -1,0 +1,20 @@
+body{
+    background-color: #000000;
+    color: white;
+}
+.navbar img{
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.navbar h2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 28px;
+    margin-right: 350px;
+}
+.card{
+    float: left;
+    margin: 200px 150px;
+}
