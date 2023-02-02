@@ -14,7 +14,24 @@ body{
     margin-top: 28px;
     margin-right: 350px;
 }
+.nav-link:hover{
+    color:hsl(0, 100%, 50%);
+}
 .card{
     float: left;
-    margin: 200px 150px;
+    margin: 100px 50px;
+    height: 40vh;
+    padding: 25px;
+    border-radius: 10%;
+    color: black;
+}
+.mid-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.card-container{
+    margin-left: 50px;
+}
+.card:hover{
+    background-color: #7fffd4;
 }
