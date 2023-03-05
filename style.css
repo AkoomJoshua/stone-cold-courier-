@@ -44,4 +44,7 @@ body{
     margin-top: 35px;
     margin-bottom: 30px;
 }
-.mid-section2{}
+footer a{
+    text-decoration: none;
+}
+
