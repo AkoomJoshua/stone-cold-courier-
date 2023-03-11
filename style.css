@@ -84,3 +84,7 @@ footer a{
  height: 100%;
  background-color: rgba(00, 00, 00, 0.8);   
 }
+.sub-title{
+    color: navy;
+    margin-bottom: 25px;
+}
