@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000000;
-    color: white;
+    
 }
 .navbar img{
     float: left;
@@ -22,7 +21,7 @@ body{
 .nav-link:hover{
     color:hsl(0, 100%, 50%);
 }
-.card{
+.cardboarder{
     float: left;
     margin: 100px 50px;
     height: 40vh;
@@ -35,12 +34,16 @@ body{
     padding-top: 100px;
     height: 500px;
 }
-.card-container{
+.cardboarder-container{
     margin-left: 50px;
 }
-.card:hover{
+.cardboarder:hover{
  background-color: grey; 
     color: white;
+}
+.leaveMessage{
+    width: 100%;
+    color: #000000;
 }
 .btn1{
     border: none;
@@ -51,6 +54,9 @@ body{
     color: white;
     border-radius: 4px;
     font-weight: bolder;
+}
+footer{
+    display: none;
 }
 .btn1:hover{
     background-color: white;

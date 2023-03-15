@@ -1,0 +1,66 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Cold Logistics</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            min-height:100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+            color: black; 
+        }
+      .container{
+        position: relative;
+        max-width: 900px;
+        width: 100%;
+        padding: 30px;
+        margin: 0 15px;
+        background-color: white;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+      .container header::before{
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        height: 2px;
+      }
+      .container header{
+        font-size: 20px;
+        font-weight: 600;
+      } 
+      .container form{
+        position: relative;
+        margin-top: 16px;
+        min-height: 490px;
+        background-color: #fff;
+
+      }
+    </style>
+  </head>
+  <body>
+        <div class="container">
+            <header>Registration</header>
+
+            <form action="#">
+                <div class="form first"></div>
+                    <div class="details">
+                        <span class="title">Personal Details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="">Full Name</label>
+                                <input type="text" name="" id="" placeholder="Enter your name" required>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </form>
+        </div>
+  </body>
+  </html>
