@@ -45,8 +45,8 @@ body{
     margin-left: 50px;
 }
 .cardboarder:hover{
- background-color: pink; 
-    color: white;
+ background-color: grey; 
+ color: white;
 }
 .leaveMessage{
     width: 100%;
@@ -56,6 +56,9 @@ body{
     background-size: 100% 100%;
     width: 100%;
     display: block;
+}
+.leaveMessage h1{
+    color: darkblue;
 }
 .btn1{
     border: none;  
@@ -89,9 +92,15 @@ footer a{
     color: white;
     font-weight: bolder;
     font-size: 55px;
+    opacity: 0.9;
+}
+.banner p{
+    opacity: 0.9;
 }
 .banner{
     background-color: rgba(00, 00, 00, 0.7);
+    color: white;
+    
 }
 .banner::before{
  content: "";
@@ -126,6 +135,6 @@ footer a{
     padding-right: 5px;
   }
   
-  label {
+label {
     margin-bottom: 0.5rem;
   }
