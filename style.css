@@ -51,15 +51,43 @@ body{
 .leaveMessage{
     width: 100%;
     color: #000000;
-    background-color: slategrey;
-    background-image: url(Assets/img/ship02.jpg);
+    background-color: lightgrey;
     background-size: 100% 100%;
     width: 100%;
     display: block;
+    clear: both;
 }
 .leaveMessage h1{
     color: darkblue;
 }
+
+.banner button{
+    opacity: 0.9;
+    margin-top: 50px;
+  }
+  .banner a{
+    text-decoration: none;
+
+  }
+  .banner p{
+    width: 40%;
+    margin-left: 200px;
+  }
+  .btn2{
+    margin-left: 200px;
+  }
+  .btn3{
+    margin-left: 55px;
+  }
+  .btn3 a{
+    color: #808080;
+  }
+  .btn3 a:hover {
+    color: #ffffff;
+  }
+  .btn2 a:hover{
+    color: #ffffff;
+  }
 .btn1{
     border: none;  
     outline: none;
