@@ -30,6 +30,7 @@ body{
     color: black;
     border: darkblue 5px solid;
     box-shadow: 10px 10px 10px;
+    width: 22rem;
 }
 .mid-section{
     text-align: center;
@@ -37,6 +38,10 @@ body{
     width: 100%;
     display: block;
     height: 700px;
+}
+.navbar button:hover{
+  background-color: transparent;
+  color: blue;
 }
 .mid-section h1{
     color: blue;
@@ -60,34 +65,54 @@ body{
 .leaveMessage h1{
     color: darkblue;
 }
+.about img{
+  height: 500px;
+  width: 60%;
+}
+.about h1{
+  text-align: center;
+  color: darkblue;
+}
+.about p {
+  line-height: 1.7;
+}
+.flex-row{
+  gap: 50px;
+  flex-direction: row;
+}
+.about h1{
+  color: darkblue;
+}
+.left, .right {
 
-.banner button{
+} 
+.banner1 button{
     opacity: 0.9;
     margin-top: 50px;
-  }
-  .banner a{
+}
+.banner1 a{
     text-decoration: none;
 
-  }
-  .banner p{
+}
+.banner1 p{
     width: 40%;
     margin-left: 200px;
-  }
-  .btn2{
+}
+.btn2{
     margin-left: 200px;
-  }
-  .btn3{
+}
+.btn3{
     margin-left: 55px;
-  }
-  .btn3 a{
+}
+.btn3 a{
     color: #808080;
-  }
-  .btn3 a:hover {
+}
+.btn3 a:hover {
     color: #ffffff;
-  }
-  .btn2 a:hover{
+}
+.btn2 a:hover{
     color: #ffffff;
-  }
+}
 .btn1{
     border: none;  
     outline: none;
@@ -111,31 +136,122 @@ body{
     margin-top: 35px;
     margin-bottom: 30px;
 }
+footer{
+  clear: both;
+}
 footer a{
     text-decoration: none;
 }
-.banner h1{
-    text-align: center;
+.banner1 h1{
     padding-top: 350px;
     color: white;
     font-weight: bolder;
     font-size: 55px;
     opacity: 0.9;
+    margin-left: 200px;
+    width: 40%;
 }
-.banner p{
+.banner1 p{
     opacity: 0.9;
+    margin-left: 200px;
+    width: 40%;
 }
-.banner{
-    background-color: rgba(00, 00, 00, 0.7);
+.banner1{
     color: white;
+    height: 90vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Assets/img/ship01.jpg); 
     
 }
-.banner::before{
+.banner1 button{
+  opacity: 0.9;
+}
+.banner1::before{
  content: "";
  position: absolute;
  width: 100%;
  height: 90%;
  background-color: rgba(00, 00, 00, 0.8);   
+}
+.banner2 h1{
+  text-align: center;
+  padding-top: 350px;
+  color: white;
+  font-weight: bolder;
+  font-size: 55px;
+  opacity: 0.9;
+}
+.banner2 p{
+  opacity: 0.9;
+}
+.banner2{
+  color: white;
+  height: 90vh;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-image: url(Assets/img/ship10.jpg);
+}
+.banner2::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 90%;
+background-color: rgba(00, 00, 00, 0.8);   
+}
+.banner3 h1{
+  text-align: center;
+  padding-top: 350px;
+  color: white;
+  font-weight: bolder;
+  font-size: 55px;
+  opacity: 0.9;
+}
+.banner3 p{
+  opacity: 0.9;
+}
+.banner3{
+  color: white;
+  height: 90vh;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-image: url(Assets/img/truck07.jpg)
+}
+.banner3::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 90%;
+background-color: rgba(00, 00, 00, 0.8);   
+}
+.banner4 h1{
+  text-align: center;
+  padding-top: 350px;
+  color: white;
+  font-weight: bolder;
+  font-size: 55px;
+  opacity: 0.9;
+}
+.banner4 p{
+  opacity: 0.9;
+}
+.banner4{
+  color: white;
+  height: 90vh;
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-image: url(Assets/img/ship04.jpg)
+}
+.banner4::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 90%;
+background-color: rgba(00, 00, 00, 0.8);   
 }
 .sub-title{
     color: navy;
@@ -151,14 +267,14 @@ footer a{
     vertical-align: middle;
   }
   
-  .form-row {
+.form-row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -5px;
-    margin-left: -5px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   
-  .form-row > .col {
+.form-row > .col {
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -166,3 +282,95 @@ footer a{
 label {
     margin-bottom: 0.5rem;
   }
+  @media only screen and ( max-width: 600px ) {
+    .about img{
+      width: 100%;
+      height: 200px;
+    }
+      .about h2{
+        text-align: center;
+      }
+      .about p {
+        line-height: 1.7;
+      }
+      .flex-row{
+        gap: 50px;
+        flex-direction: column ;
+      }
+      .left, .right {
+        flex: 1;
+      }
+      .banner1 h1 {
+        margin-top: 100px;
+        margin-left: 50px;
+        padding-top: 150px;
+        font-size: 40px;
+        width: 50%;
+        text-align: left;
+      }
+      .banner1 p{
+        width: 70%;
+        margin-left: 50px;
+        opacity: 0.9;
+      }
+      .banner1 button{
+        opacity: 0.9;
+      }
+      .banner2{
+        height: 250px;
+      }
+      .banner2::before{
+        height: 250px;
+      }
+      .banner3{
+        height: 250px;
+      }
+      .banner3::before{
+        height: 250px;
+      }
+      .banner4{
+        height: 250px;
+      }
+      .banner4::before{
+        height: 250px;
+      }
+      .banner4 h1{
+        margin-top: 0px;
+      }
+       .left,
+        .flew-row {
+          width: 100%;
+        }
+        .navbar img{
+          width: 50px;
+          height: 50px;
+          float: left;
+          margin-left: 25px;
+        }
+        .navbar h2 {
+          float: left;
+          margin: 0;
+          margin-top: 35px;
+        }
+        .btn2{
+          clear: left;
+          margin: 0;
+        }
+        .btn3{
+          clear: left;
+          margin: 0;
+        }
+        .cardboarder-container {
+          margin-left: 0px;
+        }
+        .cardboarder{
+          width: 250px;
+          height: 300px;
+          margin-top: 0px;
+        }
+        .cardboarder img {
+          height: 50px;
+          width: 50px;
+          margin: 0px;
+        }
+       }
