@@ -38,6 +38,7 @@ body{
     width: 100%;
     display: block;
     height: 700px;
+    clear: both;
 }
 .navbar button:hover{
   background-color: transparent;
@@ -65,26 +66,17 @@ body{
 .leaveMessage h1{
     color: darkblue;
 }
-.about img{
+.about-1 img{
   height: 500px;
   width: 60%;
 }
 .about h1{
   text-align: center;
   color: darkblue;
+  margin-top: 100px;
 }
 .about p {
   line-height: 1.7;
-}
-.flex-row{
-  gap: 50px;
-  flex-direction: row;
-}
-.about h1{
-  color: darkblue;
-}
-.left, .right {
-
 } 
 .banner1 button{
     opacity: 0.9;
@@ -95,7 +87,7 @@ body{
 
 }
 .banner1 p{
-    width: 40%;
+    width:  40%;
     margin-left: 200px;
 }
 .btn2{
@@ -273,7 +265,28 @@ background-color: rgba(00, 00, 00, 0.8);
     margin-right: 5px;
     margin-left: 5px;
   }
-  
+  .lefthand-1 {
+    float: left;
+    width: 60%;
+    padding-top: 100px;
+  }
+  .righthand-1{
+    float: left;
+    padding-left: 200px;
+    width: 40%;
+  } 
+  .lefthand-2{
+    float: left;
+    width: 45%;
+    clear: left;
+    padding-bottom: 100px;
+  }
+  .righthand-2{
+    float: left;
+    width: 45%;
+    margin-left: 100px;
+    padding-bottom: 100px;
+  }
 .form-row > .col {
     padding-left: 5px;
     padding-right: 5px;
@@ -346,7 +359,8 @@ label {
       .banner4::before{
         height: 400px;
       } 
-       .left,
+       
+        .left,
         .flew-row {
           width: 100%;
         }
@@ -385,5 +399,34 @@ label {
         .cardboarder:hover{
           background-color: grey;
           color: #ffffff;
+        }
+        .lefthand-1{
+          width: 100%;
+        }
+        .righthand-1{
+          clear: left;
+          width: 100%;
+          padding-left: 25px;
+        }
+        .lefthand-2{
+          clear: left;
+          width: 100%;
+          margin:  0;
+          padding: 0;
+          padding-left: 0;
+          margin-left: 0;
+          width: 100%;
+        }
+        .righthand-2{
+          margin:  0;
+          padding: 0;
+          padding-left: 0;
+          margin-left: 0;
+          width: 100%;
+        }
+        .about h1{
+          margin: 0;
+          margin-top: 50px;
+          padding: 0;
         }
        }
