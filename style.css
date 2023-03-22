@@ -295,6 +295,41 @@ background-color: rgba(00, 00, 00, 0.8);
 label {
     margin-bottom: 0.5rem;
   }
+  .testimonial {
+    margin: 50px auto;
+  }
+  .testimonial h1{
+    text-align: center;
+    font-weight: bold;
+    color: #00008b;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+   .testimonial h1::after{
+    content: "";
+    background-color: #00008b;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+   }
+   .testimonial .row{
+    margin-top: 30px;
+
+   }
+   .col-md-4{
+      margin: 40px auto;
+   }
+   .profile{
+    padding: 70px 10px 10px;
+    background-color:lightgray ;
+   }
+   .profile img{
+    position: absolute;
+    left: calc(;
+    border: 10px solid white;
+
+   }
   @media only screen and ( max-width: 600px ) {
     .about img{
       width: 100%;
