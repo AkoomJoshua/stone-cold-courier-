@@ -67,8 +67,9 @@ body{
     color: darkblue;
 }
 .about-1 img{
-  height: 500px;
-  width: 60%;
+  height: 600px;
+  width: 500px;
+  margin-top: 50px;
 }
 .about h1{
   text-align: center;
@@ -310,7 +311,7 @@ label {
     background-color: #00008b;
     display: block;
     height: 3px;
-    width: 170px;
+    width: 175px;
     margin: 20px auto 5px;
    }
    .testimonial .row{
@@ -320,17 +321,21 @@ label {
    .col-md-4{
       margin: 40px auto;
    }
-   .profile{
-    padding: 70px 10px 10px;
-    background-color:lightgray ;
+   .profile .card .image{
+      height: 140px; 
+      width: 140px;
+      border-radius: 50%;
+      padding: 3px;
+      background: #00008b;
    }
-   .profile img{
-    position: absolute;
-    left: calc(;
-    border: 10px solid white;
-
-   }
-  @media only screen and ( max-width: 600px ) {
+   .profile .card .image img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid hsl(0, 0%, 0%);
+   }  
+   @media only screen and ( max-width: 600px ) {
     .about img{
       width: 100%;
       height: 200px;
