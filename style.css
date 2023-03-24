@@ -42,10 +42,11 @@ body{
 }
 .navbar button:hover{
   background-color: transparent;
-  color: blue;
+  color: darkblue;
 }
 .mid-section h1{
-    color: blue;
+    color: darkblue;
+    font-weight: bold;
 }
 .cardboarder-container{
     margin-left: 50px;
@@ -75,6 +76,7 @@ body{
   text-align: center;
   color: darkblue;
   margin-top: 100px;
+  font-weight: bold;
 }
 .about p {
   line-height: 1.7;
@@ -321,20 +323,70 @@ label {
    .col-md-4{
       margin: 40px auto;
    }
-   .profile .card .image{
+   .testimonial .card .image{
       height: 140px; 
       width: 140px;
       border-radius: 50%;
       padding: 3px;
       background: #00008b;
    }
-   .profile .card .image img{
+   .testimonial .card .image img{
       height: 100%;
       width: 100%;
       object-fit: cover;
       border-radius: 50%;
-      border: 3px solid hsl(0, 0%, 0%);
-   }  
+      border: 5px solid darkblue;
+   }
+    .testimonial .card{
+    background: #d3d3d3;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px 0;
+    width: 280px;
+   }
+   .testimonial .card::before{
+    content: "";
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    background: #00008b;
+    border-radius: 20px 20px 0 0;
+
+   }
+   .testimonial .card-content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+   }
+   .testimonial .name-profession{ 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 50px;
+     color: #000000;  
+   } 
+   .name-profession .name{
+      font-size: 20px;
+      font-weight: 600;
+   }
+   .name-profession .profession{
+      font-size: 15px;
+      font-weight: 500;
+   }
+   .testimonial .rating{
+      display: flex;
+      align-items: center;
+      margin-top: 18px;
+   }
+   .testimonial .rating i{
+    font-size: 18px;
+      color: darkblue;
+      margin: 0 2px;
+   }
+
    @media only screen and ( max-width: 600px ) {
     .about img{
       width: 100%;
