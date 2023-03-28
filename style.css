@@ -9,8 +9,11 @@ body{
 .navbar img{
     float: left;
     margin-left: 100px;
+    width: 250px;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-right: 350px;
+    height: 50px;
 }
 .navbar h2{
     float: left;
@@ -153,7 +156,7 @@ footer a{
 }
 .banner1{
     color: white;
-    height: 90vh;
+    height: 100vh;
     width: 100%; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +170,7 @@ footer a{
  content: "";
  position: absolute;
  width: 100%;
- height: 90%;
+ height: 100%;
  background-color: rgba(00, 00, 00, 0.8);   
 }
 .banner2 h1{
@@ -386,11 +389,14 @@ label {
       color: darkblue;
       margin: 0 2px;
    }
+   .swiper{
+    width: 80%;
+   }
 
-   @media only screen and ( max-width: 600px ) {
+   @media only screen and ( max-width: 980px ) {
     .about img{
-      width: 100%;
-      height: 200px;
+      width: 90%;
+      height: 450px;
     }
       .about h2{
         text-align: center;
@@ -405,24 +411,30 @@ label {
       .left, .right {
         flex: 1;
       }
+      .banner1{
+        height: 750px;
+        opacity: 0.9;
+      }
+      .banner1::before{
+        height: 750px;
+      }
       .banner1 h1 {
-        margin-left: 50px;
-        padding-top: 150px;
-        font-size: 40px;
+        margin-left: 100px;
+        padding-top: 250px;
         width: 50%;
         text-align: left;
       }
       .banner1 p{
         width: 70%;
-        margin-left: 50px;
+        margin-left: 100px;
         opacity: 0.9;
       }
       .banner1 button{
         opacity: 0.9;
-        display: none;
       }
       .banner2{
         height: 400px;
+        opacity: 0.9;
       }
       .banner2 h1{
         padding-top: 175px;
@@ -433,6 +445,7 @@ label {
       }
       .banner3{
         height: 400px;
+        opacity: 0.9;
       }
       .banner3 h1{
         padding-top: 175px;
@@ -443,6 +456,7 @@ label {
       }
       .banner4{
         height: 400px;
+        opacity: 0.9;
       }
       .banner4 h1{
         padding-top: 175px;
@@ -457,10 +471,11 @@ label {
           width: 100%;
         }
         .navbar img{
-          width: 50px;
+          width: 250px;
           height: 50px;
           float: left;
           margin-left: 25px;
+          margin-right: 200px;
         }
         .navbar h2 {
           float: left;
@@ -468,12 +483,18 @@ label {
           margin-top: 35px;
         }
         .btn2{
-          clear: left;
-          margin: 0;
+          margin-left: 100px;
+        }
+        .btn2:hover{
+          color: #ffffff;
+          background-color: #00008a;
         }
         .btn3{
-          clear: left;
-          margin: 0;
+          margin-left: 50px;
+        }
+        .btn3:hover{
+          color: #ffffff;
+          background-color: #808080;
         }
         .cardboarder-container {
           margin-left: 0px;
@@ -520,5 +541,167 @@ label {
           margin: 0;
           margin-top: 50px;
           padding: 0;
+        }
+        .cardboarder {
+          margin-left: 100px;
+        }
+        .mid-section h1{
+          margin-bottom: 50px;
+        }
+        .testimonial .name-profession{ 
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 100px;
+          color: #000000;  
+        } 
+       }
+
+   @media only screen and ( max-width: 600px ) {
+    .about img{
+      width: 90%;
+      height: 400px;
+    }
+      .about h2{
+        text-align: center;
+      }
+      .about p {
+        line-height: 1.7;
+      }
+      .flex-row{
+        gap: 50px;
+        flex-direction: column ;
+      }
+      .left, .right {
+        flex: 1;
+      }
+      .banner1{
+        opacity: 0.9;
+      }
+      .banner1 h1 {
+        margin-left: 50px;
+        padding-top: 250px;
+        font-size: 40px;
+        width: 50%;
+        text-align: left;
+      }
+      .banner1 p{
+        width: 70%;
+        margin-left: 50px;
+        opacity: 0.9;
+      }
+      .banner1 button{
+        opacity: 0.9;
+        display: none;
+      }
+      .banner2{
+        height: 400px;
+        opacity: 0.9;
+      }
+      .banner2 h1{
+        padding-top: 175px;
+        text-align: center;
+      }
+      .banner2::before{
+        height: 400px;
+      }
+      .banner3{
+        height: 400px;
+        opacity: 0.9;
+      }
+      .banner3 h1{
+        padding-top: 175px;
+        text-align: center;
+      }
+      .banner3::before{
+        height: 400px;
+      }
+      .banner4{
+        height: 400px;
+        opacity: 0.9;
+      }
+      .banner4 h1{
+        padding-top: 175px;
+        text-align: center;
+      }
+      .banner4::before{
+        height: 400px;
+      } 
+       
+        .left,
+        .flew-row {
+          width: 100%;
+        }
+        .navbar img{
+          height: 50px;
+          width: 200px;
+          float: left;
+          margin-left: 5px;
+          margin-right: 0;
+          padding: 0;
+        }
+        .navbar h2 {
+          float: left;
+          margin: 0;
+          margin-top: 35px;
+        }
+        .btn2{
+          clear: left;
+          margin: 0;
+        }
+        .btn3{
+          clear: left;
+          margin: 0;
+        }
+        .cardboarder-container {
+          margin-left: 0px;
+        }
+        .cardboarder{
+          width: 250px;
+          height: 300px;
+          margin-top: 0px;
+          margin-left: 50px;
+        }
+        .cardboarder img {
+          height: 50px;
+          width: 50px;
+          margin: 0px;
+        }
+        .cardboarder:hover{
+          background-color: grey;
+          color: #ffffff;
+        }
+        .lefthand-1{
+          width: 100%;
+        }
+        .righthand-1{
+          clear: left;
+          width: 100%;
+          padding-left: 25px;
+        }
+        .lefthand-2{
+          clear: left;
+          width: 100%;
+          margin:  0;
+          padding: 0;
+          padding-left: 0;
+          margin-left: 0;
+          width: 100%;
+        }
+        .righthand-2{
+          margin:  0;
+          padding: 0;
+          padding-left: 0;
+          margin-left: 0;
+          width: 100%;
+        }
+        .about-1 h1{
+          margin: 0;
+          margin-top: 20px;
+          padding: 0;
+        }
+        .about p{
+          padding: 0;
+          margin: 0;
         }
        }
